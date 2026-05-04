@@ -11,7 +11,6 @@ def on_button_pressed_b():
 input.on_button_pressed(Button.B, on_button_pressed_b)
 
 def on_forever():
-    global on
     if on == True:
         servos.P0.set_angle(90)
         basic.pause(500)

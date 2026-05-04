@@ -1,9 +1,11 @@
 let on = false
 input.onButtonPressed(Button.A, function () {
     on = true
+    basic.showIcon(IconNames.Yes)
 })
 input.onButtonPressed(Button.B, function () {
     on = false
+    basic.showIcon(IconNames.No)
 })
 basic.forever(function () {
     if (on == true) {
