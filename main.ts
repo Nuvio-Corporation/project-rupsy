@@ -1,7 +1,7 @@
 let on = false
 input.onButtonPressed(Button.A, function () {
     on = true
-    basic.showIcon(IconNames.Yes)
+    basic.showIcon(IconNames.Silly)
 })
 input.onButtonPressed(Button.B, function () {
     on = false
